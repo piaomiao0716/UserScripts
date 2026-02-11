@@ -1,5 +1,22 @@
 [
 {
+    "name": "Baidu",
+    "insertPos": 1,
+    "nextLink": [
+      "//*[@id='page']/div/a[span[contains(text(),'下')]]",
+      "//*[@id='page']/div/a[span[contains(text(),'上')]]"
+    ],
+    "pageElement": "//*[@id=\"content_style\"]/style/following-sibling::*|//*[@id=\"content_left\"]/*",
+    "pageNum": null,
+    "url": "^https?://www\\.baidu\\.com/(s|baidu)\\b.",
+    "pageBarTop": 75,
+    "replaceElement": "#page",
+    "exclude": ".AC-style-logo,.killRight,a.new-nextpage-only,a.new-nextpage",
+    "wait": 500,
+    "preload": 0,
+    "action": 0
+} 
+{
     "name": "Woot",
     "url": "^https?://www\\.woot\\.com/",
     "example": "https://www.woot.com/alldeals?ref=w_ngh_et_1",
